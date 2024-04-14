@@ -1,5 +1,61 @@
 * {
     margin: 0;
     padding: 0;
-    
+    box-sizing: border-box;
+}
+
+:root {
+    --background-img: url(../assets/wallpaper.png);
+    --gray-600: #475569;
+    --gray-800: #1E293B;
+    --gray-400: #94A3B8;
+    --text-purple: #7C3AED;
+    --text-red: #ED3A5A;
+}
+
+body {
+   /* background-image: var(--background-img); */
+   background-color: #F8FAFC; 
+   height: 100vh;
+   background-repeat: no-repeat;
+   background-position: top center;
+   background-size: cover;
+}
+
+body *{
+    font-family: "Titillium Web", sans-serif;
+}
+
+#container {
+    width: 100%;
+
+}
+
+#logo-img img {
+    width: 159.5px;
+    margin-top: 40px;
+    margin-left: 112px;
+}
+
+#content {
+    border: 1px solid red;
+    width: 384px;
+    height: 483px;
+    margin-top: 114px;
+    margin-left: 112px;
+}
+
+#content-texts {
+    gap: 16px;
+}
+
+#content-texts h1 {
+    border: 1px solid green;
+    color: var(--gray-800);
+    line-height: 55px;
+}
+
+#content-texts p {
+    border: 1px solid red;
+    color: var(--gray-600);
 }
