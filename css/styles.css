@@ -28,34 +28,41 @@ body *{
 
 #container {
     width: 100%;
-
+    margin: 56px auto 0;
 }
 
 #logo-img img {
     width: 159.5px;
-    margin-top: 40px;
-    margin-left: 112px;
+    margin-left: 123px;
+    margin-bottom: 113px;
 }
 
 #content {
     border: 1px solid red;
     width: 384px;
     height: 483px;
-    margin-top: 114px;
     margin-left: 112px;
 }
 
 #content-texts {
+    width: 351px;
+}
+
+#frame6{ 
     gap: 16px;
 }
 
-#content-texts h1 {
+#frame6 h1 {
     border: 1px solid green;
     color: var(--gray-800);
-    line-height: 55px;
+    width: 316px;
+    height: 55px;
+    margin-right: 35px;
+    display: flex;
 }
 
-#content-texts p {
-    border: 1px solid red;
+#frame6 p {
+    border: 1px solid purple;
     color: var(--gray-600);
+    gap: 16px;
 }
