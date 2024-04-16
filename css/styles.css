@@ -14,12 +14,12 @@
 }
 
 body {
-   /* background-image: var(--background-img); */
+   background-image: var(--background-img);
    background-color: #F8FAFC; 
    height: 100vh;
    background-repeat: no-repeat;
-   background-position: top center;
-   background-size: cover;
+   background-position: center right;
+   background-size: contain;
 }
 
 body *{
