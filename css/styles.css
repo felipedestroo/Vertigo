@@ -49,6 +49,7 @@ body *{
 }
 
 #frame6{ 
+    display: grid;
     gap: 16px;
 }
 
@@ -58,11 +59,10 @@ body *{
     width: 316px;
     height: 55px;
     margin-right: 35px;
-    display: flex;
+
 }
 
 #frame6 p {
     border: 1px solid purple;
     color: var(--gray-600);
-    gap: 16px;
 }
