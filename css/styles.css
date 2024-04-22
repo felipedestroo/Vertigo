@@ -66,3 +66,21 @@ body *{
     border: 1px solid purple;
     color: var(--gray-600);
 }
+
+#data {
+    display: grid;
+    margin-top: 40px;
+}
+
+#data p {
+    color: var(--gray-800);
+    font-weight: bold;
+}
+
+#frame4 {
+    display: flex;
+}
+
+#frame4 span {
+    color: var(--text-purple);
+}
